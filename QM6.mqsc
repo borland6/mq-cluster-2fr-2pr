@@ -1,3 +1,4 @@
 Define QL(QL_QM6) Cluster(CLS2)
+Define QL(CQ1) Cluster(CLS2)
 Define Channel(C_QM6) CHLTYPE(CLUSRCVR) TRPTYPE(TCP) CONNAME('127.0.0.1(2416)') Cluster(CLS2)
 Define Channel(C_QM4) CHLTYPE(CLUSSDR) TRPTYPE(TCP) CONNAME('127.0.0.1(2414)') Cluster(CLS2)
