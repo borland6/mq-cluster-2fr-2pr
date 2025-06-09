@@ -1,4 +1,4 @@
 Alter Qmgr REPOS(CLS2)
-Define QL(QL_QM5) Cluster(CLS2)
+Define QL(CQ1) Cluster(CLS2)
 Define Channel(C_QM5) CHLTYPE(CLUSRCVR) TRPTYPE(TCP) CONNAME('127.0.0.1(2415)') Cluster(CLS2)
 Define Channel(C_QM4) CHLTYPE(CLUSSDR) TRPTYPE(TCP) CONNAME('127.0.0.1(2414)') Cluster(CLS2)
