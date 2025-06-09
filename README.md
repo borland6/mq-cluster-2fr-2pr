@@ -1,5 +1,6 @@
 # mq-cluster-2fr-2pr
 setup MQ cluster with 2 FR (QM4:2414, QM5:2415) and 2 PR (QM6:2416, QM7:2417) QMGRs
+There are three cluster queues CQ1 on QM5, QM6, and QM7. 
 
 QM4 (FR) <---> QM5 (FR)
   
